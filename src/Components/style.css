@@ -1,0 +1,118 @@
+
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.flexitem{
+    /* border: 1px solid black; */
+    align-items: center;
+}
+
+.flexitem img{
+    width: 70%;
+    height: 60%;
+}
+
+
+/* component 4 */
+
+.containerr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.upper button{
+    float: right;
+}
+
+.left{
+    width: 80%;
+    /* border: 1px solid black; */
+}
+.left img{
+    width: 20px;
+    height: 30px;
+}
+
+.lower{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lower div{
+    text-align: center;
+}
+
+.lower .icon img{
+    width: 10vw;
+    height: 12vh;
+}
+
+.right img{
+   width: 170px;
+   height: 300px;
+}
+.lower .icon{
+    overflow: hidden;
+    padding: 2px 2%;
+}
+
+.heading_product{
+    font-size:1.3vw;
+}
+
+@media (max-width: 850px){
+    .lower{
+        flex-direction: column;
+        width: 90%;
+    }
+   .lower .icon{
+        display: flex;
+        margin: 2% 6%;
+        padding: 4%;
+    }
+
+    .lower .icon .maintainimagesize{
+        width: 120px;
+        height: 130px;
+    }
+
+    .image_div{
+        margin-right: 6%;
+    }
+
+    .heading_product{
+        font-size:2vw;
+    }
+    
+
+    .btnArrow{
+        visibility: hidden;
+    }
+
+    .Log_in_button{
+        margin-top: 2%;
+        float:start;
+    }
+    .upper_inside_div{
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 991px){
+    .Log_in_button{
+        margin-top: 2%;
+        float:start;
+    }
+}
